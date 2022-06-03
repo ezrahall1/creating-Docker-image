@@ -42,12 +42,17 @@ This is the first command you would need to enter:
 <img src="https://i.imgur.com/EUkJJZz.png" height="80%" width="80%" alt="Image 4"/>
 
 Once Docker engine has been installed you would need to start the service.
+
 The command for this is:
-  -sudo service docker start
+  - sudo service docker start
 
-Now you need to test that you can inact with the Docker engine 
+Now you need to test that you can interact with the Docker engine.
+This is the command to use:
+   - sudo usermod -a -G docker ec2-user
+   - sudo su - ec2-user
+   - docker ps
 
-<img src="https://i.imgur.com/WtDE4tp.png" height="80%" width="80%" alt="Image 6"/>
+<img src="https://i.imgur.com/7G4XhKD.png" height="80%" width="80%" alt="Image 6"/>
 
 </p>
 </p>
