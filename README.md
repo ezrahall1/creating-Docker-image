@@ -67,7 +67,7 @@ This command create the docker image:
 This command show a list of images on the EC2 instance  but its filtered based on the name containerofcats.
  - docker images --filter reference=containerofcats
 
-<img src="https://i.imgur.com/343TSQ6.png" height="80%" width="80%" alt="Image 6"/>
+<img src="https://i.imgur.com/9T1Voz0.png" height="80%" width="80%" alt="Image 6"/>
 
 From there the next step step is to create a running container and interact with in on port 80
 
