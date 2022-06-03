@@ -33,13 +33,8 @@ Select session manager and click coonect
 <img src="https://i.imgur.com/3BtIoNb.png" height="80%" width="80%" alt="Image 3"/>
 
 
-
-There are many applications you can use to connect to your EC2 instance. For this project I will be using [Putty](https://www.putty.org).
-Once you have successfully connected to your EC2 instance using Putty you should see something like this:
-<img src="https://i.imgur.com/wsd36ox.png" height="80%" width="80%" alt="Image 4"/>
-
-<H3>Step 3 – Creating bash script and variables</H3>
-The next step is you need to create the bash script name for example testscript.sh and create the variables in a text editor using this command nano testscript.sh .
+<H3>Step 3 –  Install Docker Engine on EC2 Instance</H3>
+The Docker engine is the thing that allows Docker containers to run on this EC2 instance, so you would need to install the Docker engine package
 
 <img src="https://i.imgur.com/nb0aNT5.png" height="80%" width="80%" alt="Image 5"/>
 
