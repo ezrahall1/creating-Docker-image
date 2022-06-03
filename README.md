@@ -1,8 +1,7 @@
 <h1>Creating Docker Image</h1>
 
 <h2>Description</h2>
-This project is about how to create a static website. It is a simple project to help you understand S3 buckets in more details.
-As this project falls within the free tier it does not cost you anything to follow the step by step guide, as it is a great way to get started with AWS if you are new to the services.
+This project I install the docker engine on an EC2 Instance and use this to create the image.
 <br />
 
 
