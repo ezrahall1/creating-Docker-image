@@ -41,8 +41,11 @@ This is the first command you would need to enter:
 
 <img src="https://i.imgur.com/EUkJJZz.png" height="80%" width="80%" alt="Image 4"/>
 
-Once you have enter your script you would need to save it and make the bash script is executable by running command chmod +x testscript.sh.
-Now you are able to run the bash script using the command ./testscript.sh
+Once Docker engine has been installed you would need to start the service.
+The command for this is:
+  -sudo service docker start
+
+Now you need to test that you can inact with the Docker engine 
 
 <img src="https://i.imgur.com/WtDE4tp.png" height="80%" width="80%" alt="Image 6"/>
 
