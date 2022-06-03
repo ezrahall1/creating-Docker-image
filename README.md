@@ -69,14 +69,12 @@ This command show a list of images on the EC2 instance  but its filtered based o
 
 <img src="https://i.imgur.com/9T1Voz0.png" height="80%" width="80%" alt="Image 6"/>
 
-From there the next step step is to create a running container and interact with in on port 80
 
-Docker run command wihich 
 The next step is to use the Docker run command which is going to take the image that you have just created and use it to create a running container, and its that container that you are going to be able to interact with.
 This is the command you need to use:
    - docker run -t -i -p 80:80 containerofcats
 
-Docker is going to take the Docker image that you have on the EC2 instance run it to create a running container, and you should be able to interact with ath container via the public ip address.
+Docker is going to take the Docker image that you have on the EC2 instance run it to create a running container, and you should be able to interact with that container via the public ip address.
 
 
 
