@@ -1,14 +1,14 @@
 <h1>Creating Docker Image</h1>
 
 <h2>Description</h2>
-This project I install the docker engine on an EC2 Instance and use this to create the image.
+This project demonstrate how I install Docker engine on an EC2 Instance and use this to create the Docker image.
 <br />
 
 
 <h2>Services Used</h2>
 
-- <b>EC2</b> 
-- 
+- <b>EC2</b>
+
 <h2>Environments Used </h2>
 
 - <b>AWS</b>
