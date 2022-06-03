@@ -35,6 +35,7 @@ Select session manager and click coonect
 
 <H3>Step 3 –  Install Docker Engine on EC2 Instance</H3>
 The Docker engine is the thing that allows Docker containers to run on this EC2 instance, so you would need to install the Docker engine package.
+
 This is the first command you would need to enter:
  - sudo amazon-linux-extras install docker
 
