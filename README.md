@@ -7,11 +7,13 @@ This project I install the docker engine on an EC2 Instance and use this to crea
 
 <h2>Services Used</h2>
 
-- <b>S3</b> 
-
+- <b>EC2</b> 
+- 
 <h2>Environments Used </h2>
 
 - <b>AWS</b>
+- <b>Docker</b>
+
 
 <h2>Program walk-through:</h2>
 <H3>Step 1 - Creating S3 bucket</H3>
