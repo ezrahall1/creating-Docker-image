@@ -52,7 +52,20 @@ This is the command to use:
    - sudo su - ec2-user
    - docker ps
 
-<img src="https://i.imgur.com/7G4XhKD.png" height="80%" width="80%" alt="Image 6"/>
+<img src="https://i.imgur.com/7G4XhKD.png" height="80%" width="80%" alt="Image 5"/>
+
+This is the web application which I have configured to be automatically downloaded to this EC2 instance. Its a simple web page which consist of index.html and a few images and a Docker file.
+The Docker file is the thing that the Docker engine will use to create the Docker image
+
+<H3>Step 4 –  Creating the Docker image</H3>
+
+This command create the docker image:
+   - docker build -t containerofcats .
+
+<img src="https://i.imgur.com/343TSQ6.png" height="80%" width="80%" alt="Image 5"/>
+
+Final step is to create a running container and interact with in on port 80
+
 
 </p>
 </p>
