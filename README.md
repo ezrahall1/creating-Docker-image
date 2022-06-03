@@ -28,7 +28,9 @@ Once the EC2 instance is in a running state you would need to connect to it. Rig
 
 <img src="https://i.imgur.com/kaoMGqH.png" height="80%" width="80%" alt="Image 2"/>
 
-<img src="https://i.imgur.com/WQEebAw.png" height="80%" width="80%" alt="Image 3"/>
+Select session manager and click coonect
+
+<img src="https://i.imgur.com/3BtIoNb.png" height="80%" width="80%" alt="Image 3"/>
 
 
 
