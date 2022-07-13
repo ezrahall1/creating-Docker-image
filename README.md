@@ -14,6 +14,9 @@ This project demonstrate how I install Docker engine on an EC2 Instance and use 
 - <b>AWS</b>
 - <b>Docker</b>
 
+<h2>YouTube Demonstration </h2>
+
+[Creating Docker image - video walk-through guide](https://youtu.be/YXjbYLgB4iA)
 
 <h2>Program walk-through:</h2>
 <H3>Step 1 - Creating EC2 instance</H3>
