@@ -46,11 +46,14 @@ This is the first command I had to enter:
 Once Docker engine had been installed I had to start the service.
 
 The command for this is:
+
   <b>- sudo service docker start</b>
 
 Now I need to test that I can interact with the Docker engine.
+
 This is the command to use:
-<b>   - sudo usermod -a -G docker ec2-user
+
+<b>- sudo usermod -a -G docker ec2-user
    - sudo su - ec2-user
    - docker ps</b>
 
@@ -62,23 +65,22 @@ The Docker file is the thing that the Docker engine will use to create the Docke
 <H3>Step 4 –  Creating the Docker image</H3>
 
 This command create the docker image:
+
 <b> - docker build -t containerofcats.</b>
 
 <img src="https://i.imgur.com/343TSQ6.png" height="80%" width="80%" alt="Image 6"/>
 
 This command show a list of images on the EC2 instance  but its filtered based on the name containerofcats.
+
  <b>- docker images --filter reference=containerofcats</b>
 
 <img src="https://i.imgur.com/9T1Voz0.png" height="80%" width="80%" alt="Image 6"/>
 
 The final step is to use the Docker run command which is going to take the image that I have just created and use it to create a running container, and its that container that I will be able to interact with.
+
 This is the command I used:
-   <b>- docker run -t -i -p 80:80 containerofcats</b>
+
+<b>- docker run -t -i -p 80:80 containerofcats</b>
 
 Docker is going to take the Docker image that I have on the EC2 instance run it to create a running container, and I should be able to interact with that container via the public ip address.
 
-
-
-
-</p>
-</p>
