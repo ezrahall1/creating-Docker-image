@@ -37,7 +37,8 @@ Once the EC2 instance was in a running state I connected to it, by right clickin
 The Docker engine is the thing that allows Docker containers to run on this EC2 instance, this means I would need to install the Docker engine package.
 
 This is the first command I had to enter:
- - sudo amazon-linux-extras install docker
+ 
+ <b>- sudo amazon-linux-extras install docker</b>
 
 <img src="https://i.imgur.com/EUkJJZz.png" height="80%" width="80%" alt="Image 4"/>
 
