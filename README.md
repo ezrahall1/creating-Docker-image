@@ -53,9 +53,9 @@ Now I need to test that I can interact with the Docker engine.
 
 This is the command to use:
 
-<b>- sudo usermod -a -G docker ec2-user
-   - sudo su - ec2-user
-   - docker ps</b>
+<b>- sudo usermod -a -G docker ec2-user</b>
+<b>- sudo su - ec2-user</b>
+<b>- docker ps</b>
 
 <img src="https://i.imgur.com/7G4XhKD.png" height="80%" width="80%" alt="Image 5"/>
 
