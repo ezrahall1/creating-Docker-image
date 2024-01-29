@@ -1,7 +1,7 @@
 <h1>Creating Docker Image</h1>
 
 <h2>Description</h2>
-In this project I demonstrate how I installed Docker engine on an EC2 instance and use it to create a Docker image.
+This project illustrates the installation of the Docker engine on an EC2 instance, detailing the subsequent creation of a Docker image. The demonstration focuses on the step-by-step process, from setting up the Docker engine on the EC2 instance to effectively building a Docker image. By showcasing the practical implementation of these tasks, the project provides valuable insights into leveraging Docker technology within the AWS environment. The guide emphasizes the seamless integration of Docker capabilities, highlighting the efficiency gained in deploying and managing containerized applications on an EC2 instance.
 <br />
 
 
